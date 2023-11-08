@@ -5,7 +5,7 @@ metadata:
   name: podinfo-subscription
   namespace: mpas-podinfo-application
 spec:
-  component: mpas.ocm.software/podinfo
+  component: ocm.software/mpas/podinfo
   destination:
     secretRef:
       name: github-access
