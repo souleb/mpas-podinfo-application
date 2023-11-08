@@ -13,3 +13,4 @@ spec:
   selector:
     matchLabels:
       mpas.ocm.software/target-selector: podinfo-kubernetes-target
+  Interval: 5m0s
