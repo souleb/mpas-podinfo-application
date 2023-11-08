@@ -15,9 +15,9 @@
 // an object named after the target resource is expected in order to pick parameters from it.
 podinfo: {
 	// this field has a default value of 2
-	replicas: *2 | int
+	replicas: 3
 	// this field is optional
-	message?: string
+	message?: "this a mpas deployed podinfo app"
 	// this field is optional
-	serviceAccountName?: string
+	serviceAccountName?: "podinfo-sa"
 }
