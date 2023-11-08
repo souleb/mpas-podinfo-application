@@ -9,7 +9,7 @@ spec:
     name: ocm.software/mpas/podinfo
     registry:
       url: ghcr.io/souleb
-    version: v1.0.3
+    version: v1.0.4
   pipelines:
   - configuration:
       rules:
