@@ -11,4 +11,5 @@ spec:
     targetNamespace: podinfo
   serviceAccountName: podinfo-sa
   selector:
-    mpas.ocm.software/target-selector: podinfo-kubernetes-target
+    matchLabels
+      mpas.ocm.software/target-selector: podinfo-kubernetes-target
