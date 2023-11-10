@@ -11,7 +11,7 @@ spec:
       name: github-access
     url: ghcr.io/souleb
   interval: 5m0s
-  semver: v1.0.3
+  semver: v1.0.4
   source:
     secretRef:
       name: github-access
