@@ -11,3 +11,4 @@
 //  | serviceAccountName  | string  | ""               | Name of the service account to use     |
 #SchemaVersion: "v1.0.0"
 podinfo: replicas: 2
+podinfo: serviceAccountName: "podinfo-sa"
